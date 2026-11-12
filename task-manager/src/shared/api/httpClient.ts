@@ -1,6 +1,6 @@
-import { env } from "../../../shared/config/env.ts";
-import { isRecord } from "../../../shared/utils/guards.ts";
-import { ApiError, type ApiErrorDetail } from "../../../shared/api/ApiError.ts";
+import { env } from "../config/env.ts";
+import { isRecord } from "../utils/guards.ts";
+import { ApiError, type ApiErrorDetail } from "../api/ApiError.ts";
 
 // ---------------------------------------------------------------------------
 // Sessão em memória (decisão D2): o access token NÃO vai para localStorage.

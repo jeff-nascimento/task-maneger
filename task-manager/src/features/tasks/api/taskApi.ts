@@ -1,4 +1,4 @@
-import { requestJson, requestVoid } from "./httpClient";
+import { requestJson, requestVoid } from "../../../shared/api/httpClient";
 import { ApiError } from "../../../shared/api/ApiError.ts";
 import { isRecord } from "../../../shared/utils/guards.ts";
 import type {
